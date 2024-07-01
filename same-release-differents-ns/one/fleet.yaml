@@ -1,0 +1,7 @@
+defaultNamespace: ns-1
+helm:
+    releaseName: simple-chart
+    repo: https://github.com/rancher/fleet-test-data
+    chart: simple-chart/config-chart
+    values:
+        name: test
