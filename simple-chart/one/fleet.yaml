@@ -1,6 +1,0 @@
-defaultNamespace: ns-1
-helm:
-    releaseName: simple-chart
-    chart: ../config-chart
-    values:
-        name: example-value
